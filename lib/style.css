@@ -1,0 +1,326 @@
+/* reset -------------------------------------------- */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+
+ul {
+    list-style:none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:link {
+    color: blue
+}
+a:visited {
+    color: blue
+}
+
+/* common -------------------------------------------- */
+
+body {
+    font-family: sans-serif;
+    background-color:#F2D8DF;
+}
+
+header {
+    height: 60px;
+    background-color: #FF5E19;
+}
+footer {
+    height: 60px;
+    background-color: #f5f5dd;
+    margin-top: 30px;
+}
+.footer-box{
+  text-align: center;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.header-box {
+    margin-left : auto ;
+    margin-right : auto ;
+    width: 960px;
+}
+
+.logo {
+    float: left;
+}
+
+a:link.menu {
+    float: right;
+    display:block;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    margin: 15px 0 0 10px;
+}
+a:hover.menu {
+    color: #f00;
+}
+a:active.menu {
+    color: #00f;
+}
+a:visited.menu {
+    color: #fff;
+}
+p.menu {
+    float: right;
+    display:block;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    margin: 15px 0 0 10px;
+}
+
+.content {
+    margin-left : auto ;
+    margin-right : auto ;
+    width: 1000px;
+}
+
+.msg {
+    color: #FF0000;
+}
+
+/* top page -------------------------------------------- */
+
+.item-list li {
+    float:left;
+    margin-top: 20px;
+    margin-left: 20px;
+    width:300px;
+}
+
+.item-list .item {
+    text-align: center;
+}
+
+.item-list .item-img{
+    width:120px;
+    height:200px;
+}
+
+.item-list .item-info{
+    margin-top: 5px;
+}
+
+
+
+
+
+.item-list .cart-btn {
+    display:block;
+    clear:both;
+    margin:0 auto;
+    width:160px;
+    height:40px;
+    color: #ffffff;
+    font-size: 100%;
+    background-color: #00A7F7;
+    border:none;
+}
+
+.item-list .sold-out{
+    clear:both;
+    height:40px;
+    color: #FF0000;
+    font-size: 1.2em;
+}
+
+/* cart, finish page -------------------------------------------- */
+
+.title {
+    margin-top: 20px;
+    font-size: 1.4em;
+}
+
+.cart-list-title {
+    clear:both;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.cart-list-title .cart-list-price{
+    margin-left: 700px;
+}
+
+.cart-list-title .cart-list-num {
+    margin-left: 150px;
+}
+
+.cart-list .cart-item {
+    clear:both;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    border-bottom: 1px solid #ccc;
+}
+
+.cart-list .cart-item-img{
+    width:120px;
+}
+
+.cart-list .cart-item-name{
+    position: absolute;
+    margin-left: 30px;
+    width: 500px;
+}
+
+.cart-item-del{
+    display: inline;
+    position: absolute;
+    margin-left: 470px;
+}
+
+.cart-list .cart-item-price {
+    position: absolute;
+    margin-left: 560px;
+    color: #FF0000;
+}
+
+.cart-list .form_select_amount {
+    float:right;
+    margin-left: 50px;
+}
+
+.cart-list .cart-item-num {
+    width:100px;
+    height:30px;
+    font-size: 1.2em;
+}
+
+.buy-sum-box{
+    clear:both;
+    margin-top: 10px;
+}
+
+.buy-sum-box .buy-sum-title{
+    margin-left: 620px;
+}
+
+.buy-sum-box .buy-sum-price{
+    margin-left: 30px;
+    font-size: 2em;
+    color: #FF0000;
+}
+
+.buy-btn {
+    display:block;
+    margin-top: 10px;
+    width:100%;
+    height:60px;
+    color: #ffffff;
+    background-color: #FF8A00;
+    font-size: 1.4em;
+    border:none;
+}
+
+/* finish page -------------------------------------------- */
+
+.finish-msg{
+    margin-top: 20px;
+    height:60px;
+    font-size: 1.4em;
+    text-align: center;
+    line-height:60px;
+    background-color: #FFF2DC;
+}
+
+.finish-item-price {
+    position: absolute;
+    margin-left: 800px;
+}
+
+/* login/regist page ------------------------------------ */
+div .login_form {
+	margin-left: auto;
+	margin-right: auto;
+	width: 360px;
+}
+div .login_form dl {
+	margin-top: 20px;
+	width:360px;
+}
+div .login_form dt {
+	margin-top: 5px;
+	padding-top: 6px;
+	float:left;
+	clear:left;
+	width:120px;
+}
+div .login_form dd {
+	margin-top: 5px;
+	padding-top: 3px;
+	float:left;
+	width: 240px;
+}
+div .login_form input[type="text"] {
+	width: 240px;
+}
+div .login_error {
+	padding-top: 10px;
+	text-align: center;
+	color: #f00;
+	font-weight: bold;
+}
+div .login_submit {
+	clear: both;
+	padding-top: 10px;
+	text-align: center;
+}
+.mangashop{
+  font-size: 45px;
+}
+.anchort{
+  font-size: 50px;
+  margin: 30px 30px 30px 0px;
+}
+.janle{
+  font-size: 30px;
+  margin: 30px 30px 30px 0px;
+}
+.lastbutton{
+
+      display:block;
+      clear:both;
+      width:160px;
+      height:40px;
+      color: #ffffff;
+      font-size: 100%;
+      background-color: #00A7F7;
+      border:none;
+      margin :30px 30px 30px 0px;
+}
+.body{
+  width:1200px;
+  margin: 0 auto;
+}

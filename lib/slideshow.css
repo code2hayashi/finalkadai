@@ -1,0 +1,168 @@
+/*reset.css*/
+/* reset -------------------------------------------- */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+
+ul {
+    list-style:none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:link {
+    color: blue
+}
+a:visited {
+    color: blue
+}
+
+
+/* common -------------------------------------------- */
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    height: 60px;
+    background-color: #0D2851;
+}
+
+.header-box {
+    margin-left : auto ;
+    margin-right : auto ;
+    width: 960px;
+}
+
+.logo {
+    float: left;
+}
+
+a:link.menu {
+    float: right;
+    display:block;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    margin: 15px 0 0 10px;
+}
+a:hover.menu {
+    color: #f00;
+}
+a:active.menu {
+    color: #00f;
+}
+a:visited.menu {
+    color: #fff;
+}
+p.menu {
+    float: right;
+    display:block;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    margin: 15px 0 0 10px;
+}
+
+.content {
+    margin-left : auto ;
+    margin-right : auto ;
+    width: 960px;
+}
+
+.msg {
+    color: #FF0000;
+}
+
+.cart-btn {
+  display:block;
+  clear:both;
+
+  width:180px;
+  height:40px;
+  color: #ffffff;
+  font-size: 100%;
+  background-color: #00A7F7;
+  border:none;
+}
+main{
+  width: 960px;
+  margin: 0 auto;
+
+
+}
+
+
+
+/* トップページ*/
+
+.p100,.p99 ,.p98 {
+  display:block;
+  width: 1450px;
+  height: 600px;
+  margin: 0 auto;
+
+}
+
+.anchor {
+  display:block;
+  clear:both;
+  margin:0 auto;
+  width:700px;
+  height:200px;
+  color: #ffffff;
+  font-size: 200%;
+  background-color: #00A7F7;
+  border:none;
+}
+
+/*少年漫画,少女漫画、スポーツ漫画*/
+.more {
+  display: flex;
+}
+
+.item-img1,.item-img2,.item-img3,.item-img4, .item-img5,.item-img6,.item-img7,.item-img8,
+.item-img9,.item-img10,.item-img11,.item-img12,.item-img13,.item-img14,.item-img15,.item-img16{
+  width: 180px;
+  height: 250px;
+}
+/*少年漫画*/
+.square1,.square2,.square3{
+  display:flex;
+  margin: 20px;
+}
+.boys1,.boys2,.boys3,.boys4,.boys5,.boys6,.boys7,.boys8,.boys9,.boys10,.boys11,.boys12,
+.girls1,.girls2,.girls3,.girls4,.girls5,.girls6,.girls7,.girls8,.girls9,.girls10,.girls11,.girls12,
+.sports1,.sports2,.sports3,.sports4,.sports5,.sports6,.sports7,.sports8,.sports9,.sports10,.sports11,.sports12{
+  flex: 1;
+}
+img{
+  display:block;
+  width: 200px;
+}
